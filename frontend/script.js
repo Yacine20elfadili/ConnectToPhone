@@ -7,7 +7,7 @@ const modalFileContent = document.getElementById("modal-file-content");
 const downloadBtn = document.getElementById("download-btn");
 const closeModal = document.getElementById("close-modal");
 
-const API_BASE_URL = "http://192.168.137.1:3001";
+const API_BASE_URL = "http://192.168.1.10:3001";
 let currentPath = "";
 let currentViewedFilePath = "";
 
